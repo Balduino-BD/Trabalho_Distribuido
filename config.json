@@ -1,0 +1,12 @@
+{
+  "replicas": {
+    "1": {"host": "127.0.0.1", "porta": 6001},
+    "2": {"host": "127.0.0.1", "porta": 6002},
+    "3": {"host": "127.0.0.1", "porta": 6003}
+  },
+  "tempos": {
+    "timeout_conexao": 1.0,
+    "intervalo_heartbeat": 1.0,
+    "suspeita_lider": 3.0
+  }
+}
