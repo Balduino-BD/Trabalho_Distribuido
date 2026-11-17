@@ -1,4 +1,8 @@
-#!/usr/bin/env python3
+
+
+
+
+
 """
 Réplica de um serviço bancário com REPLICAÇÃO SEMI-ATIVA.
 
@@ -518,6 +522,7 @@ class Replica:
 
 
 def main():
+
     parser = argparse.ArgumentParser(description="Réplica com replicação semi-ativa")
     parser.add_argument("--id", type=int, required=True, help="número da réplica")
     parser.add_argument("--config", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json"))
