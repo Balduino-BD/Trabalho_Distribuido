@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+
+
+
 # Encerra as réplicas iniciadas por iniciar_replicas.sh
 cd "$(dirname "$0")"
 for f in logs/R*.pid; do

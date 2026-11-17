@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+
+
+
 # Sobe as 3 réplicas em segundo plano; logs em logs/R<id>.log
 # Uso: ./iniciar_replicas.sh        (para parar: ./parar_replicas.sh)
 cd "$(dirname "$0")"

@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+
+
+
 """
 Painel web para simular e visualizar a REPLICAÇÃO SEMI-ATIVA.
 

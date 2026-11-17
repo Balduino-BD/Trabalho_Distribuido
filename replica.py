@@ -45,8 +45,9 @@ from datetime import datetime
 
 
 # --------------------------------------------------------------------------
-# Comunicação: uma conexão TCP por mensagem (linha JSON) e uma resposta.
+# Comunicação: uma conexão TCP por mensagem e uma resposta.
 # --------------------------------------------------------------------------
+
 def enviar_mensagem(host, porta, mensagem, timeout):
     """Envia `mensagem` e devolve a resposta (dict) ou None se o destino não
     responder dentro do `timeout` (a réplica é considerada falha)."""
@@ -91,10 +92,13 @@ def estado_vazio():
 # --------------------------------------------------------------------------
 # A réplica
 # --------------------------------------------------------------------------
+
 class Replica:
     def __init__(self, meu_id, config):
         self.id = meu_id
+
         # Números das réplicas: chaves do config.json
+
         self.replicas = {int(r): (d["host"], d["porta"])
                          for r, d in config["replicas"].items()}
         t = config["tempos"]
@@ -117,6 +121,7 @@ class Replica:
         self.trava_eventos = threading.Lock()
 
     # ------------------------------------------------------------ utilidades
+    
     @property
     def lider(self):
         return self.vista[0] if self.vista else None

@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+
+
+
 """
 Cliente do serviço bancário replicado (replicação semi-ativa).
 

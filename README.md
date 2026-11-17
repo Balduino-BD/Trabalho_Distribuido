@@ -25,10 +25,6 @@ Definição usada (Aula 10 — Tolerância a Faltas):
 O serviço é uma conta bancária, como no exemplo dos slides: **depositar**, **sacar** (recusado se o saldo for
 insuficiente), **saldo** e **extrato**.
 
-Linguagem: **Python 3**, só com a biblioteca padrão (`socket`, `socketserver`, `threading`, `json`).
-
-![Painel: o líder R1 falhou, R3 assumiu e respondeu ao depósito; R2 e R3 têm o mesmo estado](painel.png)
-
 ---
 
 ## 2. Estrutura dos arquivos
