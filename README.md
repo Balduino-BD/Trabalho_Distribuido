@@ -1,7 +1,9 @@
-# Replicação Semi-ativa — Banco Replicado
 
-**Trabalho Prático — Sistemas Distribuídos — UFSC Araranguá**
-**Grupo 12:** [Nome 1], [Nome 2], [Nome 3]
+
+# Replicação Semi-ativa - Banco Replicado
+
+**Trabalho Prático - Sistemas Distribuídos — UFSC Araranguá**
+**Grupo 12:** Balduino, Filipe
 
 ---
 
