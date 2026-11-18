@@ -2,8 +2,8 @@
 
 # Replicação Semi-ativa - Banco Replicado
 
-**Trabalho Prático - Sistemas Distribuídos — UFSC Araranguá**
-**Grupo 12:** Balduino, Filipe
+**Trabalho Prático - Sistemas Distribuídos - UFSC Araranguá**
+**Grupo 12:** Balduino, Felipe
 
 ---
 
@@ -13,7 +13,7 @@ Implementação de um **serviço bancário tolerante a faltas** com a técnica d
 réplicas (R1, R2, R3) do mesmo servidor, e o serviço continua disponível, sem perder operações, quando uma
 delas falha.
 
-Definição usada (Aula 10 — Tolerância a Faltas):
+Definição usada (Aula 10 - Tolerância a Faltas):
 
 - **Todas as réplicas são ativas** e executam cada operação, mas **só o líder recebe e responde** às
   invocações dos clientes.
